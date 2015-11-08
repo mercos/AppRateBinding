@@ -1,0 +1,6 @@
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/obj/Debug/MonoAndroid,Version=v4.0.3.AssemblyAttribute.cs
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/obj/Debug/AppRateBinding.Jars.AppRate_1.1.jar
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/bin/Debug/AppRateBinding.dll.mdb
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/bin/Debug/AppRateBinding.dll
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/obj/Debug/AppRateBinding.dll
+/Users/ricardo/simplest/repositorio/trunk/mobile/MeusPedidosMobile/AppRateBinding/obj/Debug/AppRateBinding.dll.mdb

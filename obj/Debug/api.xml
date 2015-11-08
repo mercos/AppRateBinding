@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.tjeannin.apprate">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AppRate" static="false" visibility="public">
+<implements name="android.content.DialogInterface.OnCancelListener" name-generic-aware="android.content.DialogInterface.OnCancelListener">
+</implements>
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AppRate" static="false" type="com.tjeannin.apprate.AppRate" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reset" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setCustomDialog" native="false" return="com.tjeannin.apprate.AppRate" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.app.AlertDialog.Builder">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinDaysUntilPrompt" native="false" return="com.tjeannin.apprate.AppRate" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinLaunchesUntilPrompt" native="false" return="com.tjeannin.apprate.AppRate" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnClickListener" native="false" return="com.tjeannin.apprate.AppRate" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface.OnClickListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowIfAppHasCrashed" native="false" return="com.tjeannin.apprate.AppRate" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExceptionHandler" static="false" visibility="public">
+<implements name="java.lang.Thread.UncaughtExceptionHandler" name-generic-aware="java.lang.Thread.UncaughtExceptionHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ExceptionHandler" static="false" type="com.tjeannin.apprate.ExceptionHandler" visibility="public">
+<parameter name="p0" type="java.lang.Thread.UncaughtExceptionHandler">
+</parameter>
+<parameter name="p1" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="uncaughtException" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Thread">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PrefsContract" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="PrefsContract" static="false" type="com.tjeannin.apprate.PrefsContract" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="PREF_APP_HAS_CRASHED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;pref_app_has_crashed&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PREF_DATE_FIRST_LAUNCH" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;date_firstlaunch&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PREF_DONT_SHOW_AGAIN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;dont_show_again&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PREF_DONT_SHOW_IF_CRASHED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;pref_dont_show_if_crashed&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PREF_LAUNCH_COUNT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;launch_count&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SHARED_PREFS_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;apprate_prefs&quot;" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+</api>
